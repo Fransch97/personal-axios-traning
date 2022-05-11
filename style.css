@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(226, 149, 107);
+
+}
+.header{
+    background-color: rgb(205, 147, 72);
+    padding: 20px;
+}
+
+.header h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.coffeeTypes{
+    display: flex;
+    height: calc(100vh - 96px);
+    justify-content: center;
+    align-items: center;
+}
+
+.type{
+    display: flex;
+    text-transform: uppercase;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.type h1{
+    font-weight: bold;
+}
+
+.hot{
+    background-color: rgb(220, 113, 113);
+}
+.cold{
+    background-color: aqua;
+}
+
+.products{
+    background-color: rgb(226, 149, 107);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    padding: 50px;
+    width: 300px;
+    margin: 0 30px;
+}
+span{
+    text-align: center;
+}
+.product h1{
+    font-weight: bold;
+}
+.btn-sc{
+    margin-top: 20px;
+    width: 100%;
+
+}
